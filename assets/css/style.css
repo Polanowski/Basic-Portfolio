@@ -1,0 +1,58 @@
+/*==================== Container that holds everything ================*/
+body {
+    background: url(..//images/pattern.jpg);
+    background-size: contain;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    background: teal;
+}
+
+/*============================ Navigation =========================*/
+header {
+    background: #fff;
+    position: relative;
+    display: block;
+}
+
+nav ul {
+    display: inline-block;
+    width: 60%;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+h1.logo {
+    display: inline-block;
+    background: #8ee1e1;
+    padding: 10px 20px;
+}
+/*======================= Body Content ==============================*/
+section {
+    clear: both;
+}
+
+nav li:nth-child(2) {
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+/*================================ Footer ======================*/
+
+nav {
+    display: block;
+    width: 100%;
+}
+
+nav ul li {
+    padding: 0px 5px;
+}
+
+h1.logo {
+    margin: 0;
+}
