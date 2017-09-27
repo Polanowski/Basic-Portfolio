@@ -8,6 +8,7 @@ body {
 .container {
     max-width: 960px;
     margin: 35px auto;
+    height: 145vh;
 }
 
 /*============================= Navigation =========================*/
@@ -240,6 +241,7 @@ button {
 /*================================ Footer ======================*/
 
 footer {
+    position: fixed;
     bottom: 0;
     width: 100%;
     background: #5d5d5d;
